@@ -87,7 +87,13 @@ nav {
     display: grid; 
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 200px 200px 200px 200px 200px 200px 200px 200px 200px 200px 200px 200px; 
-    gap: 0px 0px;  
+    gap: 20px 20px;  
+}
+
+img {
+  object-fit: cover;
+  width: 100%;
+  max-height: 100%;
 }
 
 .item-1 {
@@ -99,10 +105,26 @@ nav {
 }
 
 .item-2 {
+    text-align: left;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    grid-column-start: 3;
+    grid-column-end: 5;
+}
+
+.item-3 {
     background: blue;
     grid-row-start: 3;
     grid-row-end: 5;
+    grid-column-start: 1;
+    grid-column-end: 3;    
+}
+
+.item-4 {
+    text-align: left;
+    grid-row-start: 3;
+    grid-row-end: 5;
     grid-column-start: 3;
-    grid-column-end: 5;    
+    grid-column-end: 5;
 }
 
