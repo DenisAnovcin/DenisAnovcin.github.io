@@ -48,9 +48,13 @@ div {
     margin-bottom: 150px;
 }
 
-#nomargin {
+#refs {
     margin-top: 0px;
     margin-bottom: 0px
+}
+
+.referencesText {
+    text-align: left;
 }
 
 #forms {
@@ -96,18 +100,19 @@ nav {
 .container {
     display: grid; 
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 200px 200px 200px 200px 200px 200px 200px 200px 200px 200px 200px 200px; 
-    gap: 20px 20px;  
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr; 
+    height: 6000px;
+    gap: 50px 20px;  
+    font-size: 13px;
 }
 
 img {
   object-fit: cover;
-  width: 100%;
+  max-width: 100%;
   max-height: 100%;
 }
 
 .item-1 {
-    background: blue;
     grid-row-start: 1;
     grid-row-end: 3;
     grid-column-start: 1;
@@ -123,7 +128,6 @@ img {
 }
 
 .item-3 {
-    background: blue;
     grid-row-start: 3;
     grid-row-end: 5;
     grid-column-start: 1;
@@ -137,4 +141,90 @@ img {
     grid-column-start: 3;
     grid-column-end: 5;
 }
+.item-5 {
+    grid-row-start: 5;
+    grid-row-end: 7;
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
 
+.item-6 {
+    text-align: left;
+    grid-row-start: 5;
+    grid-row-end: 7;
+    grid-column-start: 3;
+    grid-column-end: 5;
+}
+
+.item-7 {
+    grid-row-start: 7;
+    grid-row-end: 9;
+    grid-column-start: 1;
+    grid-column-end: 3;    
+}
+
+.item-8 {
+    text-align: left;
+    grid-row-start: 7;
+    grid-row-end: 9;
+    grid-column-start: 3;
+    grid-column-end: 5;
+}
+.item-9 {
+    grid-row-start: 9;
+    grid-row-end: 11;
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+.item-10 {
+    text-align: left;
+    grid-row-start: 9;
+    grid-row-end: 11;
+    grid-column-start: 3;
+    grid-column-end: 5;
+}
+
+.item-11 {
+    grid-row-start: 11;
+    grid-row-end: 13;
+    grid-column-start: 1;
+    grid-column-end: 3;    
+}
+
+.item-12 {
+    text-align: left;
+    grid-row-start: 11;
+    grid-row-end: 13;
+    grid-column-start: 3;
+    grid-column-end: 5;
+}
+.item-13 {
+    grid-row-start: 13;
+    grid-row-end: 15;
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+.item-14 {
+    text-align: left;
+    grid-row-start: 13;
+    grid-row-end: 15;
+    grid-column-start: 3;
+    grid-column-end: 5;
+}
+
+.item-15 {
+    grid-row-start: 15;
+    grid-row-end: 17;
+    grid-column-start: 1;
+    grid-column-end: 3;    
+}
+
+.item-16 {
+    text-align: left;
+    grid-row-start: 15;
+    grid-row-end: 17;
+    grid-column-start: 3;
+    grid-column-end: 5;
+}
